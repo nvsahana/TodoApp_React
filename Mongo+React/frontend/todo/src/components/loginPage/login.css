@@ -1,0 +1,63 @@
+.login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../../../public/background2.jpg');
+}
+.login-container {
+    background-color: azure;
+    border-radius: 5px;
+    padding: 2em;
+}
+.form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+.form-group label {
+    width: 90px;
+    font-weight: bolder;
+    font-size: 15px
+}
+.form-group input {
+    width: 20em;
+    border: none;
+    border-bottom: 0.25px solid #000;
+    background: transparent ;
+    color: #000;
+}
+
+.form-group input:focus {
+    border: none;
+    border-bottom: 0.25px solid #a2a8ae;
+    box-sizing: none;
+    outline: none;
+}
+
+.form-group button {
+    width: 100%;
+}
+
+.form-group button {
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.form-group button:hover {
+    cursor: pointer
+}
+
+.signupLink-container {
+    width: max-content;
+    margin: auto;
+}
